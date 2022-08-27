@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+.location > h1 {
+    text-align: center;
+    color: #1CA666;
+    margin-bottom: 30px;
+}
+
+.location > iframe{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
