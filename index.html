@@ -1,240 +1,461 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sobre-nos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="location.css">
-    <link rel="stylesheet" href="works.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/header.css" /> 
+    <link rel="stylesheet" href="styles/sobre-nos.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/animate.css" />
+    <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/location.css" />
+    <link rel="stylesheet" href="styles/works.css" />
+    <link rel="stylesheet" href="styles/forms.css" />
+    <link rel="stylesheet" href="styles/footerstyle.css" />
+    <link rel="stylesheet" href="styles/popup.css">
     <title>EnergiSol</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="#" class="brand">EnergiSol</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
+      <a href="#" class="brand">EnergiSol</a>
+      <div class="menu-btn">
+        <div class="teste"></div>
+      </div>
+      <div class="navigation">
         <div class="navigation-items">
-            <a href="#">Home</a>
-            <a href="#">Sobre Nós</a>
-            <a href="#">Nossas Obras</a>
-            <a href="#">Contato</a>
+          <a href="#one">Home</a>
+          <a href="#two">Sobre Nós</a>
+          <a href="#three">Nossos Serviços</a>
+          <a href="#five">Contato</a>
         </div>
-        </div>
+      </div>
     </header>
-                            <!-- SLIDER PRINCIPAL -->
-    <section class="home">
-        <picture><img class="image-slide active" src="imagens/1.png" alt="image1"></picture>
-        <picture><img class="image-slide" src="imagens/2.jpg" alt="image2"></picture>
-        <picture><img class="image-slide" src="imagens/3.jpg" alt="image3"></picture>
-        <picture><img class="image-slide" src="imagens/4.jpg" alt="image4"></picture>
-        <div class="content active">
-                <h1>Bonitão.<br><span>Site</span></h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam adipisci ad pariatur alias sapiente voluptates iure maxime accusamus porro ea, necessitatibus totam repellat molestiae sint delectus animi mollitia? Quidem.</p>
-                <a href="#">Veja mais</a>
-        </div>
-        <div class="content">
-            <h1>Mais energia.<br><span>Do solzão</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam adipisci ad pariatur alias sapiente voluptates iure maxime accusamus porro ea, necessitatibus totam repellat molestiae sint delectus animi mollitia? Quidem.</p>
-            <a href="#">Veja mais</a>
-    </div>
-        <div class="content">
-            <h1>VOCÊ.<br><span>Precisa disso</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam adipisci ad pariatur alias sapiente voluptates iure maxime accusamus porro ea, necessitatibus totam repellat molestiae sint delectus animi mollitia? Quidem.</p>
-            <a href="#">Veja mais</a>
-    </div>
-        <div class="content">
-            <h1>Toma placa.<br><span>Para você</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam adipisci ad pariatur alias sapiente voluptates iure maxime accusamus porro ea, necessitatibus totam repellat molestiae sint delectus animi mollitia? Quidem.</p>
-            <a href="#">Veja mais</a>
-    </div>
-        <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
+    <!-- SLIDER PRINCIPAL -->
+    <section id="one" class="home">
+      <picture
+        ><img class="image-slide active" src="imagens/1.png" alt="image1"
+      /></picture>
+      <picture
+        ><img class="image-slide" src="imagens/b1413ae0-987f-4782-8ac0-34b3f4c00454.JPG" alt="image2"
+      /></picture>
+      <picture
+        ><img class="image-slide" src="imagens/75cbf49a-537d-4857-9e4d-138984549e95.jpg" alt="image3"
+      /></picture>
+      <picture
+        ><img class="image-slide" src="imagens/c78faf66-cc0b-4f70-b3cc-cf55b89822b0.jpg" alt="image4"
+      /></picture>
+      <div id="radio1" class="content active">
+        <h1>Economize até 95%<br /><span>em sua conta de energia</span></h1>
+        <p>
+          Cada dia que passa você deixa de gerar sua própria energia e sofre com
+          os aumentos da concessionária. Não perca tempo, venha ser um cliente
+          Energisol.
+        </p>
+        <a href="#five">Entre em contato</a>
+      </div>
+      <div id="radio2" class="content">
+        <h1>Solução completa.<br /><span>Para você!</span></h1>
+        <p>
+          Temos a solução ideal para seu problema. Confira nossa área de
+          atuação.
+        </p>
+        <a href="#three">Nossos Serviços</a>
+      </div>
+      <div class="content">
+        <h1>Seja você também<br /><span>um cliente satisfeito!</span></h1>
+        <p>
+          Nossa dedicação e empenho para fazer um trabalho cada vez melhor tem
+          um motivo: fazer você feliz. <br />
+          Confira nossas obras.
+        </p>
+        <a href="#four">Nossas Obras</a>
+      </div>
+      <div class="content">
+        <h1>Temos mais de 6 anos de experiência<br></h1>
+        <p><span>E muitas histórias de sucesso.</span><br>Conheça um pouco mais sobre nossa história.</p>
 
-        <div class="slider-navigation">
-            <div class="nav-btn active"></div>
-            <div class="nav-btn"></div>
-            <div class="nav-btn"></div>
-            <div class="nav-btn"></div>
-        </div>
+        <a href="#two">Conheça</a>
+      </div>
+      <div class="media-icons">
+        <a href="http://www.facebook.com/Energisol.to/" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/energi.sol/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
 
+      <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+      </div>
     </section>
-                                <!-- SOBRE NÓS -->
-    <section class="sobre-nos">
-        <h1>Sobre nós</h1>
-        <div>
-            <picture>
-                <source media="(max-width: 550px)" srcset="../imagens/sobre-nos-pq.jpg">
-                <img src="imagens/sobre-nos.jpg" alt="Instalando placa solar">
-            </picture>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis magnam, tempore unde fugiat sequi voluptas. Quo maiores non maxime dolores, laborum esse totam ipsam doloribus. Ad dolores eaque quis porro.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vitae ratione debitis tenetur. Consectetur qui cum omnis beatae amet perferendis, consequuntur itaque vitae porro! Fugiat quasi ipsa rem eius natus?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic debitis iusto dolorem corporis cum eveniet? Optio similique reprehenderit earum, suscipit exercitationem maiores soluta totam. Laborum, inventore? Dolorem, illo magni!
-            </p>
-            
+    <!-- SOBRE NÓS -->
+    <section id="two" class="sobre-nos">
+      <div class="quem-somos-main">
+        <div class="quem-somos-texto" data-aos="fade-down" data-aos-duration="1000">
+          <h1>Quem Somos</h1>
+          <hr />
+          <p style="font-size: 15px">
+            Fundada em 2016 pelo Engenheiro eletricista Eurico Pereira de
+            Magalhães Junior, a EnergiSol é uma empresa especializada em
+            serviços elétricos. Realizamos serviços como projetos elétricos,
+            execuções de projetos, laudos técnicos, instalações e manutenções,
+            sempre prezando qualidade e agilidade.<br /><br />
+            Nossa equipe, incluí engenheiros com mais de 25 anos de experiência
+            que acompanham todos os serviços que realizamos, assim como
+            instaladores competentes e atendentes qualificados. Nossos serviços
+            são diferenciados, pois utilizamos os melhores produtos do mercado e
+            mão de obra qualificada.<br /><br />
+            Hoje, estamos localizados em Taquaralto, onde atendemos clientes de
+            todas as regiões da cidade e realizamos atendimento residencial
+            dependendo da preferência e disponibilidade de cada cliente.<br /><br />
+            Oferecemos os melhores serviços elétricos com qualidade,
+            compromisso, rapidez e honestidade, sempre buscando a satisfação dos
+            nossos clientes.
+          </p>
         </div>
+        <div class="quem-somos-imagem"></div>
+      </div>
     </section>
-                                <!-- LOCALIZAÇÃO -->
-        <div class="location">
-            <h1>Localização</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14710.938855577984!2d-43.20578658746338!3d-22.81229181517621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99778839b18c5b%3A0x77196dc668650055!2sIlha%20Plaza!5e0!3m2!1spt-BR!2sbr!4v1660886604404!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-            
-                            <!-- NOSSOS SERVIÇOS -->
-    <section class="service-main">
-        <h1>Nossos Serviços</h1>
-    <div class="service">
-        <div>
-            <img src="icons/projetos.png" alt="projetoicone">
-            <h3>Projetos Elétricos e Construções</h3>
-            <div class="service-box">
-                <p>Loteamento e praças</p>
-                <hr>
-                <p>Medição agrupada</p>
-                <hr>
-                <p>Subestação SPDA</p>
-                <hr>
-                <p>Residencial e Industrial</p>
-                <hr>
-                <p>Cabeamento estruturado</p>
-            </div>
-        </div>
-        <div>
-            <img src="icons/laudo.png" alt="projetoicone">
-            <h3>Laudos Técnicos</h3>
-            <div class="service-box">
-                <p>Aterramento</p>
-                <hr>
-                <p>SPDA</p>
-                <hr>
-                <p>Geradores</p>
-                <hr>
-                <p>Gruas e elevadores</p>
-            </div>
-        </div>
-        <div>
-            <img src="icons/painel-solar.png" alt="projetoicone">
-            <h3>Energia Solar</h3>
-            <div class="service-box">
-                <p>Projeto</p>
-                <hr>
-                <p>Homologação</p>
-                <hr>
-                <p>Instalação</p>
-                <hr>
-                <p>Manutenção</p>
-            </div>
-        </div>
+
+    <!-- LOCALIZAÇÃO -->
+    <div class="location">
+      <h1>Localização</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15699.914231635341!2d-48.2853508!3d-10.3435994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb277821186ba3ca!2sEnergiSol%20Energia%20Solar%20e%20Instala%C3%A7%C3%B5es%20El%C3%A9tricas%20%E2%9C%85!5e0!3m2!1spt-BR!2sbr!4v1664041807518!5m2!1spt-BR!2sbr" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-        
-        
-        
+
+    <!-- NOSSOS SERVIÇOS -->
+    <section id="three" class="service-main" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Nossos Serviços</h1>
+      <hr id="hr-titulo">
+      <div class="service">
+        <div>
+          <img src="icons/projetos.png" alt="projetoicone" />
+          <h3>Projetos Elétricos e Construções</h3>
+          <div class="service-box">
+            <p>Loteamento e praças</p>
+            <hr />
+            <p>Medição agrupada</p>
+            <hr />
+            <p>Subestação SPDA</p>
+            <hr />
+            <p>Residencial e Industrial</p>
+            <hr />
+            <p>Cabeamento estruturado</p>
+          </div>
+        </div>
+        <div>
+          <img src="icons/laudo.png" alt="projetoicone" />
+          <h3>Laudos Técnicos</h3>
+          <div class="service-box">
+            <p>Aterramento</p>
+            <hr />
+            <p>SPDA</p>
+            <hr />
+            <p>Geradores</p>
+            <hr />
+            <p>Gruas e elevadores</p>
+          </div>
+        </div>
+        <div>
+          <img src="icons/painel-solar.png" alt="projetoicone" />
+          <h3>Energia Solar</h3>
+          <div class="service-box">
+            <p>Projeto</p>
+            <hr />
+            <p>Homologação</p>
+            <hr />
+            <p>Instalação</p>
+            <hr />
+            <p>Manutenção</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- NOSSAS OBRAS -->
     <div class="work-text">
-        <h1>Nossas Obras</h1>
+      <h1>Nossas Obras</h1>
     </div>
-    <div class="work-body">
+    <div id="four" class="work-body">
+      <section class="work-container">
+        <div class="work-card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="work-img" data-text="Cachoeira">
+            <img src="imagens/0510740b-a811-4515-8549-356c1b591139.jpg" alt="work1" />
+          </div>
+          <div class="work-content">
+            <div>
+              <h3>Instalação</h3>
+              <p>
+                Instalação de painel solar.<br>
+                Palmas-TO
+              </p>
+              <!-- <a id="" href="#">Leia Mais!</a>
+              <button class="open">Leia Mais</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="work-card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="work-img" data-text="Salvador">
+            <img src="imagens/7f1d7add-3832-4f62-b1d6-5082dd15ce83.jpg" alt="work1" />
+          </div>
+          <div class="work-content">
+            <div>
+              <h3>Instalação</h3>
+              <p>
+                Instalação painel solar. 
+                Zona rural, Tocantins.
+              </p>
+              <!--<a href="#">Leia Mais!</a>-->
+            </div>
+          </div>
+        </div>
+        <div class="work-card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="work-img" data-text="Feira de Santana">
+            <img src="imagens/a2119f99-5a40-4fa6-ab4b-012539cea580.jpg" alt="work1" />
+          </div>
+          <div class="work-content">
+            <div>
+              <h3>Instalação</h3>
+              <p>
+                Instalação de painel solar.<br>
+                Palmas-TO
+              </p>
+              <!--<a href="#">Leia Mais!</a>-->
+            </div>
+          </div>
+        </div>
+        <div class="work-card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="work-img" alt="Lauro de Freitas">
+            <img src="imagens/8ffe7546-8af0-4c1f-8fcd-83e2569ef122.JPG" alt="work1" />
+          </div>
+          <div class="work-content">
+            <div>
+              <h3>Instalação</h3>
+              <p>
+                Instalação de painel solar.<br>
+                Palmas-TO
+              </p>
+              
+              <!-- <a href="#">Leia Mais!</a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
-        <section class="work-container">
-            <div class="work-card">
-                <div class="work-img" data-text="Cachoeira">
-            <img src="imagens/work1.jpg" alt="work1">
+    <div class="box-model">
+        <div id="box-1" class="box-content">
+            <img src="" alt="">
+            <h2>Cachoeira</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatum ad maiores, sit itaque a temporibus quia perspiciatis odio eius voluptates rem recusandae ullam animi et nemo eos consectetur corporis.</p>
+            <div class="close-box"></div>
         </div>
-        <div class="work-content">
-            <div>
-                <h3>Cachoeira</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti maiores error ad quia nulla. </p>
-                <a href="#">Leia Mais!</a>
-            </div>
+        <div id="open-2" class="box-content">
+            <img src="" alt="">
+            <h2>Salvador</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatum ad maiores, sit itaque a temporibus quia perspiciatis odio eius voluptates rem recusandae ullam animi et nemo eos consectetur corporis.</p>
+            <div class="close-box"></div>
         </div>
-    </div>
-    <div class="work-card">
-        <div class="work-img" data-text="Salvador">
-            <img src="imagens/work1.jpg" alt="work1">
+        <div id="open-3" class="box-content">
+            <img src="" alt="">
+            <h2>Feira de Santana</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatum ad maiores, sit itaque a temporibus quia perspiciatis odio eius voluptates rem recusandae ullam animi et nemo eos consectetur corporis.</p>
+            <div class="close-box"></div>
         </div>
-        <div class="work-content">
-            <div>
-                <h3>Salvador</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti maiores error ad quia nulla. </p>
-                <a href="#">Leia Mais!</a>
-            </div>
-        </div>
-    </div>
-    <div class="work-card">
-        <div class="work-img" data-text="Feira de Santana">
-            <img src="imagens/work1.jpg" alt="work1">
-        </div>
-        <div class="work-content">
-            <div>
-                <h3>Feira de Santana</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti maiores error ad quia nulla. </p>
-                <a href="#">Leia Mais!</a>
-            </div>
+        <div id="open-4" class="box-content">
+            <img src="" alt="">
+            <h2>Lauro de Freitas</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio voluptatum ad maiores, sit itaque a temporibus quia perspiciatis odio eius voluptates rem recusandae ullam animi et nemo eos consectetur corporis.</p>
+            <div class="close-box"></div>
         </div>
     </div>
-    <div class="work-card">
-        <div class="work-img" alt="Lauro de Freitas">
-            <img src="imagens/work1.jpg" alt="work1">
-        </div>
-        <div class="work-content">
-            <div>
-                <h3>Lauro de Freitas</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti maiores error ad quia nulla. </p>
-                <a href="#">Leia Mais!</a>
+
+    <!-- FORMULARIO DE CONTATO -->
+
+     <div id="five" class="contato-container">
+      <span class="big-circle"></span>
+      <img src="imagens/forms/shape.png" class="shape" alt="" />
+      <div class="form">
+        <div class="contato-info">
+          <h3 class="title">Entre em contato com a gente</h3>
+          <p class="text">
+            Nossos especialistas estão prontos para sanar suas dúvidas. Falta
+            pouco pra você gerar sua própria energia.
+          </p>
+
+          <div class="info">
+            <div class="informacao">
+              <img src="imagens/forms/location.png" class="icon-form" alt="" />
+              <p>
+                Avenida Copacabana qd50 lt10 LJ01St. Morada do Sol (Taquaralto),
+                Palmas-TO, 77066-012
+              </p>
             </div>
+          </div>
+
+          <div class="info">
+            <div class="informacao">
+              <img src="imagens/forms/email.png" class="icon-form" alt="" />
+              <p>contato@energisol-to.com.br</p>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="informacao">
+              <img src="imagens/forms/phone.png" class="icon-form" alt="" />
+              <p>(63) 9 8512-1218</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Nós siga nas redes Sociais :</p>
+            <div class="social-icon">
+              <a href="http://www.facebook.com/Energisol.to/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/energi.sol/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+               <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a> 
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-</div>
-    
+        <div class="contato-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html">
+            <h3 class="title">Fale Conosco</h3>
+            <div class="input-container focus">
+              <input type="text" name="name" id="name" class="input" />
+              <label for="Username">Seu Nome</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="text" id="email" name="email" class="input" />
+              <label for="Email">E-mail</label>
+              <span>E-Mail</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" id="telefone" name="phone" class="input" />
+              <label for="Phone">Telefone</label>
+              <span>Telefone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" id="mensagem" class="input"></textarea>
+              <label for="Message">Mensagem</label>
+              <span>Menssagem</span>
+            </div>
+            <input type="submit" value="Enviar" id="btn" />
+          </form>
+        </div>
+      </div>
+      <div class="bgfundo">
+        <img src="imagens/2.jpg" alt="" />
+      </div>
+    </div>  -->
+
+    <!-- FOOTER -->
+
+    <main></main>
+    <footer>
+      <div class="footer-container">
+        <div class="conteudo-footer">
+          <div class="profile">
+            <div class="area-logo">
+              <img src="" alt="" />
+              <span class="logo-footer">ENERGISOL</span>
+              <button id="dark-mode" class="lua">
+                <i class="bx bxs-moon"></i>
+              </button>
+              <button id="light-mode" class="sol hide">
+                <i class="bx bxs-sun"></i>
+              </button>
+            </div>
+            <div class="description">
+              <p style="font-size:10px; margin: left 4px">
+                Fundada em 2016 pelo Engenheiro eletricista Eurico Pereira de
+                Magalhães Junior, a EnergiSol é uma empresa especializada em
+                serviços elétricos. Realizamos serviços como projetos elétricos,
+                execuções de projetos, laudos técnicos, instalações e manutenções,
+                sempre prezando qualidade e agilidade.
+              </p>
+            </div>
+            <div class="social-footer">
+              <a href="http://www.facebook.com/Energisol.to/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/energi.sol/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="servicos-content">
+            <ul class="servicos-footer">
+              <li class="servicos-nome">Mapa do site</li>
+              <li style="font-size: 12px"><a href="#one">Inicio</a></li>
+              <li style="font-size: 12px"><a href="#two">Sobre nós</a></li>
+              <li style="font-size: 12px"><a href="#three">Nossos serviços</a></li>
+            </ul>
+           <ul class="servicos-footer">
+              <li class="servicos-nome">Entre em contato:</li>
+              <li style="font-size: 12px">(63) 9 8512-1218</a></li>
+              <li style="font-size: 12px">contato@energisol-to.com.br</a></li>
+              <li style="font-size: 12px">Avenida Copacabana qd50 lt10 LJ01St. Morada do Sol (Taquaralto),
+                Palmas-TO, 77066-012</a></li>
+            </ul>
+            <!--<ul class="servicos-footer">
+              <li class="servicos-nome">Tres</li>
+              <li><a href="#">Teste1</a></li>
+              <li><a href="#">Teste2</a></li>
+              <li><a href="#">Teste3</a></li>-->
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <div class="copy-right">
+            <i class="bx bx-copyright"></i>
+            <span>2022-Energisol. Todos os direitos reservados.</span>
+          </div>
+          <div class="tou">
+            <a href="#">Termos de uso</a>
+            <a href="#">Politicas de Privacidade</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="scripts/slidernav.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="scripts/emails.js"></script>
+    <script src="scripts/footer.js"></script>
+
+    <!-- MUDANDO A COR DO NAVBAR COM SCROLL -->
     <script type="text/javascript">
-        //javascript of responsive navigation menu
-        const menuBtn = document.querySelector('.menu-btn');
-        const navigation = document.querySelector('.navigation');
-
-        menuBtn.addEventListener('click', () =>{
-            menuBtn.classList.toggle('active');
-            navigation.classList.toggle('active');
-
-        });
-
-        //Javascript for video slider navigation
-        const btns = document.querySelectorAll('.nav-btn')
-        const slides = document.querySelectorAll('.image-slide')
-        const contents = document.querySelectorAll('.content')
-
-        var sliderNav = function(manual) {
-            btns.forEach((btn) =>  {
-                btn.classList.remove('active');
-            });
-
-            slides.forEach((slide) =>  {
-                slide.classList.remove('active');
-            });
-
-            contents.forEach((content) =>  {
-                content.classList.remove('active');
-            });
-
-            btns[manual].classList.add('active');
-            slides[manual].classList.add('active');
-            contents[manual].classList.add('active');
-        }
-
-        btns.forEach ((btn, i) => {
-            btn.addEventListener('click', () => {
-                sliderNav(i);
-            });
-        });
+      const menu = document.querySelector("header");
+      function activescroll() {
+        menu.classList.toggle("ativo", scrollY > 0);
+      }
+      window.addEventListener("scroll", activescroll);
     </script>
 
-
-</body>
+    <script src="scripts/animate.js"></script>
+    <script src="scripts/work-popup.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

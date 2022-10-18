@@ -1,0 +1,11 @@
+script:
+  - pipe: atlassian/ftp-deploy:0.3.7
+    variables:
+      USER: 'energisol-to1'
+      PASSWORD: 'eAVC.!YSEh*Yak4'
+      SERVER: 'ftp.energisol-to.com.br'
+      REMOTE_PATH: '/home/energisol-to1/'
+      # LOCAL_PATH: '<string>' # Optional
+      # DEBUG: '<boolean>' # Optional
+      # EXTRA_ARGS: '<string>' # Optional.
+      # DELETE_FLAG: '<boolean>' # Optional.
